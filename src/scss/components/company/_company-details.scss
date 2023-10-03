@@ -1,0 +1,73 @@
+.company-details {
+    width: calc(100% - 75% - 15px);
+    padding: 20px;
+    border-radius: 15px;
+    background: #F7F8FD;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    @media screen and (max-width: 1360px) {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
+        gap: 20px;
+        padding: 10px;
+    }
+
+    @media screen and (max-width: 400px) {
+        gap: 15px;
+    }
+
+    &__item {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+
+        &-ico {
+            width: 23px;
+            height: 23px;
+            object-fit: cover;
+
+            @media screen and (max-width: 768px) {
+                width: 31px;
+                height: 31px;
+            }
+
+            @media screen and (max-width: 400px) {
+                width: 27px;
+                height: 27px;
+            }
+        }
+
+        &-info {
+            &__title {
+                margin-bottom: 5px;
+                font-size: 14px;
+                font-weight: 500;
+                color: #313446;
+
+                @media screen and (max-width: 1024px) {
+                    font-size: 12px;
+                }
+
+                @media screen and (max-width: 400px) {
+                    font-size: 10px;
+                }
+            }
+
+            &__text {
+                color: #72768D;
+
+                @media screen and (max-width: 1024px) {
+                    font-size: 14px;
+                }
+
+                @media screen and (max-width: 400px) {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

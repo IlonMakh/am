@@ -1,0 +1,31 @@
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &__sum {
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+
+        @media screen and (max-width: 568px) {
+            font-size: 14px;
+        }
+    }
+
+    &__stars {
+        display: flex;
+        align-items: center;
+        color: #ff922e;
+
+        &-ico {
+            width: 20px;
+            height: 20px;
+
+            @media screen and (max-width: 568px) {
+                width: 17px;
+                height: 17px;
+            }
+        }
+    }
+}

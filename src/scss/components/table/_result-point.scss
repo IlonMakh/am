@@ -1,0 +1,23 @@
+.result-point {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+
+    &.red {
+        background-color: #DB0202;
+    }
+
+    &.green {
+        background-color: #4EC757;
+    }
+
+    &.grey {
+        background-color: #9B9B9B;
+    }
+}

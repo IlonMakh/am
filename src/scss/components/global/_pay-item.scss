@@ -1,0 +1,26 @@
+.pay-item {
+    display: block;
+    width: 53px;
+    height: 34px;
+    border-radius: 5px;
+    padding: 9px;
+    background-color: #ebecf5a6;
+
+
+    @media screen and (max-width: 400px) {
+        width: 38px;
+        height: 24px;;
+        padding: 5px;
+    }
+
+    &:hover &__logo {
+        transform: scale(1.2);
+    }
+
+    &__logo {
+        transition: all 0.3s ease-in;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}

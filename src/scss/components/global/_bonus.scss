@@ -1,0 +1,47 @@
+.bonus {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    @media screen and (max-width: 568px) {
+        gap: 7px;
+    }
+
+    &__suptitle {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        &-ico {
+            width: 17px;
+            height: 17px;
+        }
+
+        &-text {
+            font-weight: 500;
+            color: #72768d;
+        }
+    }
+
+    &__title {
+        font-size: 24px;
+        font-weight: 700;
+
+        @media screen and (max-width: 568px) {
+            font-size: 18px;
+        }
+    }
+
+    &__description {
+        color: #72768d;
+        max-width: 284px;
+
+        @media screen and (max-width: 1024px) {
+            max-width: 250px;
+        }
+
+        @media screen and (max-width: 768px) {
+            max-width: fit-content;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.company-comment {
+    max-width: 991px;
+    width: 75%;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f7f8fd;
+
+    @media screen and (max-width: 1360px) {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 10px;
+    }
+
+    &__header {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 10px;
+
+        &-img {
+            width: 31px;
+            height: 31px;
+            border-radius: 50%;
+        }
+
+        &-info {
+            &__name {
+                font-size: 18px;
+                font-weight: 500;
+                color: #313446;
+
+                @media screen and (max-width: 768px) {
+                    font-size: 14px;
+                }
+            }
+
+            &__subtitle {
+                font-size: 12px;
+                color: #7a7e9b;
+
+                @media screen and (max-width: 768px) {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    &__message {
+        font-size: 16px;
+        line-height: 25px;
+        color: #7A7E9B;
+
+        @media screen and (max-width: 768px) {
+            font-size: 12px;
+            line-height: 20px;
+        }
+
+        @media screen and (max-width: 400px) {
+            line-height: 17px;
+        }
+    }
+}

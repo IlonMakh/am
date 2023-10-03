@@ -1,0 +1,24 @@
+@import './vars';
+@import './fonts';
+@import './global';
+
+
+@import './components/global/pay-item';
+@import './components/global/logo';
+@import './components/global/bonus';
+@import './components/global/rating';
+@import './components/global/claim-btn';
+@import './components/global/features-list';
+
+@import './components/company/company';
+@import './components/company/company-card';
+@import './components/company/company-details';
+@import './components/company/company-comment';
+
+@import './components/table/main-table';
+@import './components/table/expanded-table';
+@import './components/table/result-point';
+
+@import './components/offers/offers-item';
+@import './components/offers/offers-more';
+@import './components/offers/offers-list';
